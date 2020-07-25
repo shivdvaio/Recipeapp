@@ -38,7 +38,8 @@ class Body extends StatelessWidget {
         child: Padding(
           padding: EdgeInsets.symmetric(horizontal: defaultsize * 2,vertical: defaultsize * 3),
           child: SafeArea(
-            child: Row(children: [
+            child
+                : Row(children: [
               SvgPicture.asset(imgSrC),
               SizedBox(width: defaultsize * 1,),
               Text(textname,style: TextStyle(color: kTextLigntColor,fontSize: defaultsize * 1.6),),
